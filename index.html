@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Document</title>
+	<link rel="stylesheet" href="fontawsome/css/all.min.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="hexagon.css">
+</head>
+
+<body style="background-color: #fefefe;">
+	<header>
+		<nav aria-label="breadcrumb fixed-top" class="row">
+			<ol class="breadcrumb col-md-2 logo">
+				<li class="breadcrumb-item"><a href="#">SYUKRI</a></li>
+			</ol>
+			<ol class="breadcrumb nav-header col-md">
+				<li class="breadcrumb-item tgt-home "><a href="#">Home</a></li>
+				<li class="breadcrumb-item tgt-aboutme"><a href="#">About Me</a></li>
+				<li class="breadcrumb-item tgt-contact"><a href="#">Contact Me</a></li>
+				<li class="breadcrumb-item tgt-gallery"><a href="#">Gallery</a></li>
+				<li class="dropdown breadcrumb-item">
+					<button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+					 aria-expanded="false">
+						Menu
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item tgt-video" href="#">Series</a>
+						<a class="dropdown-item tgt-squad" href="#">Karasuno Squad</a>
+						<a class="dropdown-item tgt-team" href="#">Team</a>
+						<a class="dropdown-item tgt-member" href="#">Member</a>
+
+					</div>
+				</li>
+			</ol>
+		</nav>
+		<div class="jumbotron jumbotron-fluid home">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-pause="false" data-interval="5000">
+				<div class="jumbotron-content ">
+
+					<h3 class="text-center">Syukri Husaibatul Khairi</h3>
+					<h3 class="text-center">Full Stack Programmer</h3>
+					<button type="button" class="btn btn-lg btn-light ">See More !</button>
+				</div>
+				<ol class="carousel-indicators">
+					<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active imgz">
+						<img class="d-block " src="img/car4-min.jpg" style="object-fit: contain;" alt="First slide">
+						<div></div>
+					</div>
+					<div class="carousel-item imgz">
+						<img class="d-block  " src="img/car5-min.jpg" style="object-fit: contain;" alt="Second slide">
+						<div></div>
+					</div>
+					<div class="carousel-item imgz">
+						<img class="d-block " src="img/car3-min.jpg" style="object-fit: contain;" alt="Third slide">
+						<div></div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+	</header>
+
+
+	
+
+	<div class="container mt-3 video-haikyuu ">
+		<div class="card bagian-alert">
+			<div class="card-header" >
+				Anime Hakyuu
+			</div>
+			<div class="card-body">
+				<div class="row">
+					<div class="col-sm-3 mb-3">
+						<div class="list-group" id="list-tab" role="tablist">
+							<a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab"
+							 aria-controls="home">Haikyuu Season 1</a>
+							<a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab"
+							 aria-controls="profile">Haikyuu!!: Lev Genzan!</a>
+							<a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab"
+							 aria-controls="messages">Haikyuu!! Second Season</a>
+							<a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab"
+							 aria-controls="settings">Haikyuu!! 3rd Season</a>
+							 <a class="list-group-item list-group-item-action" id="list-s4-list" data-toggle="list" href="#list-s4" role="tab"
+							 aria-controls="settings">Haikyuu!!: Tokushuu!</a>
+							 <a class="list-group-item list-group-item-action" id="list-s5-list" data-toggle="list" href="#list-s5" role="tab"
+							 aria-controls="settings">Haikyuu!!: vs "Akaten"</a>
+						</div>
+					</div>
+					<div class="col-sm-9">
+						<div class="tab-content" id="nav-tabContent">
+							<div class="tab-pane animated flipInX active " id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+								<div class="row" >
+									<div class="col-md-4" >
+										<img src="img/haikyuus1.jpg" class="w-100" alt="">
+									</div>
+									<div  class="col-md-8">
+										<div class="title" >
+											<h4>Haikyuu Season 1</h4>
+											<hr>
+										</div>
+										<div class="information">
+											<h6>Information</h6>
+											<hr>
+											<small class="d-block">Type : <span class="text-info">TV</span></small>
+											<small class="d-block">Episode : <span class="text-info">25</span></small>
+											<small class="d-block">Status : <span class="text-info">Finished Airing</span></small>
+											<small class="d-block">Aired : <span class="text-info">April 6, 2014</span></small>
+											<small class="d-block">Producer : <span class="text-info"> Mainichi Broadcasting System, TOHO animation, Shueisha</span></small>
+											<small class="d-block">Genre : <span class="text-info">Comedy, Drama, School, Shounen, Sports</span></small>
+											<small class="d-block">Duration : <span class="text-info">24 menit per eps</span></small>
+											<small class="d-block">Rating : <span class="text-info">PG-13 - Teen 13 or Older</span></small>
+											<button type="button" class="btn btn-secondary mt-3">
+											  SCORE <span class="badge badge-light">8.65</span>
+											  <span class="sr-only">unread messages</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane animated flipInX" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+								<div class="row" >
+									<div class="col-md-4" >
+										<img src="img/haikyulev.jpg" class="w-100" alt="">
+									</div>
+									<div  class="col-md-8">
+										<div class="title" >
+											<h4>Haikyuu!!: Lev Genzan!</h4>
+											<hr>
+										</div>
+										<div class="information">
+											<h6>Information</h6>
+											<hr>
+											<small class="d-block">Type : <span class="text-info">OVA</span></small>
+											<small class="d-block">Episode : <span class="text-info">1</span></small>
+											<small class="d-block">Status : <span class="text-info">Finished Airing</span></small>
+											<small class="d-block">Aired : <span class="text-info">Mar 4, 2015</span></small>
+											<small class="d-block">Producer : <span class="text-info"> Production I.G</span></small>
+											<small class="d-block">Genre : <span class="text-info"> Sports, Shounen</span></small>
+											<small class="d-block">Duration : <span class="text-info">24 menit</span></small>
+											<small class="d-block">Rating : <span class="text-info">PG-13 - Teen 13 or Older</span></small>
+											
+											<button type="button" class="btn btn-secondary mt-3">
+											  SCORE <span class="badge badge-light">7.86</span>
+											  <span class="sr-only">unread messages</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane animated flipInX" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+								<div class="row" >
+									<div class="col-md-4" >
+										<img src="img/haikyuus2.jpg" class="w-100" alt="">
+									</div>
+									<div  class="col-md-8">
+										<div class="title" >
+											<h4>Haikyuu!! Second Season</h4>
+											<hr>
+										</div>
+										<div class="information">
+											<h6>Information</h6>
+											<hr>
+											<small class="d-block">Type : <span class="text-info">OVA</span></small>
+											<small class="d-block">Episode : <span class="text-info">25</span></small>
+											<small class="d-block">Status : <span class="text-info">Finished Airing</span></small>
+											<small class="d-block">Aired : <span class="text-info">Oct 4, 2015 to Mar 27, 2016</span></small>
+											<small class="d-block">Producer : <span class="text-info"> TOHO animation, Shueisha</span></small>
+											<small class="d-block">Genre : <span class="text-info">Comedy, Sports, Drama, School, Shounen</span></small>
+											<small class="d-block">Duration : <span class="text-info">24 menit</span></small>
+											<small class="d-block">Rating : <span class="text-info">PG-13 - Teen 13 or Older</span></small>
+											<button type="button" class="btn btn-secondary mt-3">
+											  SCORE <span class="badge badge-light">8.86</span>
+											  <span class="sr-only">unread messages</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane animated flipInX" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+								<div class="row" >
+									<div class="col-md-4" >
+										<img src="img/hakyus3.jpg" class="w-100" alt="">
+									</div>
+									<div  class="col-md-8">
+										<div class="title" >
+											<h4>Haikyuu!!: Karasuno VS Shiratorizawa</h4>
+											<hr>
+										</div>
+										<div class="information">
+											<h6>Information</h6>
+											<hr>
+											<small class="d-block">Type : <span class="text-info">TV</span></small>
+											<small class="d-block">Episode : <span class="text-info">10</span></small>
+											<small class="d-block">Status : <span class="text-info">Finished Airing</span></small>
+											<small class="d-block">Aired : <span class="text-info">Oct 8, 2016 to Dec 10, 2016</span></small>
+											<small class="d-block">Producer : <span class="text-info">TOHO animation, Shueisha</span></small>
+											<small class="d-block">Genre : <span class="text-info">Comedy, Sports, Drama, School, Shounen</span></small>
+											<small class="d-block">Duration : <span class="text-info">24 menit</span></small>
+											<small class="d-block">Rating : <span class="text-info">PG-13 - Teen 13 or Older</span></small>
+											<button type="button" class="btn btn-secondary mt-3">
+											  SCORE <span class="badge badge-light">8.98</span>
+											  <span class="sr-only">unread messages</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="tab-pane animated flipInX" id="list-s4" role="tabpanel" aria-labelledby="list-s4-list">
+								<div class="row" >
+									<div class="col-md-4" >
+										<img src="img/hakyuutokushuu.jpg" class="w-100" alt="">
+									</div>
+									<div  class="col-md-8">
+										<div class="title" >
+											<h4>Haikyuu!!: Tokushuu! Haru-kou </h4>
+											<hr>
+										</div>
+										<div class="information">
+											<h6>Information</h6>
+											<hr>
+											<small class="d-block">Type : <span class="text-info">OVA</span></small>
+											<small class="d-block">Episode : <span class="text-info">1</span></small>
+											<small class="d-block">Status : <span class="text-info">Finished Airing</span></small>
+											<small class="d-block">Aired : <span class="text-info">Aug 4, 2017</span></small>
+											<small class="d-block">Producer : <span class="text-info">Production I.G</span></small>
+											<small class="d-block">Genre : <span class="text-info">School, Shounen, Sports</span></small>
+											<small class="d-block">Duration : <span class="text-info">23 min.</span></small>
+											<small class="d-block">Rating : <span class="text-info">PG-13 - Teen 13 or Older</span></small>
+											<button type="button" class="btn btn-secondary mt-3">
+											  SCORE <span class="badge badge-light">7.50</span>
+											  <span class="sr-only">unread messages</span>
+											</button>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="tab-pane animated flipInX" id="list-s5" role="tabpanel" aria-labelledby="list-s5-list">
+									<div class="row" >
+										<div class="col-md-4" >
+											<img src="img/hakyuuakaten.jpg" class="w-100" alt="">
+										</div>
+										<div  class="col-md-8">
+											<div class="title" >
+												<h4>Haikyuu!!: vs "Akaten" </h4>
+												<hr>
+											</div>
+											<div class="information">
+												<h6>Information</h6>
+												<hr>
+												<small class="d-block">Type : <span class="text-info">OVA</span></small>
+												<small class="d-block">Episode : <span class="text-info">1</span></small>
+												<small class="d-block">Status : <span class="text-info">Finished Airing</span></small>
+												<small class="d-block">Aired : <span class="text-info"> May 2, 2016</span></small>
+												<small class="d-block">Producer : <span class="text-info">Production I.G</span></small>
+												<small class="d-block">Genre : <span class="text-info">School, Shounen, Sports</span></small>
+												<small class="d-block">Duration : <span class="text-info">23 min.</span></small>
+												<small class="d-block">Rating : <span class="text-info">PG-13 - Teen 13 or Older</span></small>
+												<button type="button" class="btn btn-secondary mt-3">
+													SCORE <span class="badge badge-light">7.72</span>
+													<span class="sr-only">unread messages</span>
+												</button>
+											</div>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="jumbotron jumbotron-fluid mt-3 jumbotron-2 paddi mereng-mereng position-relative about-me " >
+		<div class="isi position-absolute w-100" >
+			<h2 class="display-4 text-light ">ABOUT ME</h1>	
+			<div class="row w-100 " >
+				<div class="col-4" >
+					<img src="img/png.png" class="img-png" alt="#" >
+				</div>
+				<div class="col-8" >
+					<div class="row w-100 d-flex align-items-center">
+						<button class="col-2 btn btn-light ">Nama</button>
+						<h4 class="col-10 text-light">Syukri Husaibatul Khairi</h4>
+					</div>
+					<div class="row w-100 d-flex align-items-center mt-3">
+						<button class="col-2 btn btn-light ">NIM</button>
+						<h4 class="col-10 text-light">17552001148</h4>
+					</div>
+					<div class="row w-100 d-flex align-items-center mt-3">
+						<button class="col-2 btn btn-light ">Kelas</button>
+						<h4 class="col-10 text-light">TI 2A</h4>
+					</div>
+					<div class="row w-100 d-flex align-items-center mt-3">
+						<button class="col-2 btn btn-light ">Hoby</button>
+						<h4 class="col-10 text-light">Watching Anime</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="bg-fog position-absolute" >
+		</div>
+	</div>	
+
+	<div class="container my-3 haikyuu-gallery">
+		<div class="card bagian-table">
+			<div class="card-header">
+				Haikyuu Gallery
+			</div>
+			<div class="card-body row">
+				<div class="col-md-6 mb-3 ">
+					<div class="d-flex justify-content-start">
+						<button class="btn btn-outline-success mr-4" >KARASUNO</button>
+						<button class="btn btn-info"  id="karasuno-show" >Hide</button>
+					</div>
+					<div class="grid" id="karasuno-image">
+					  	<div class="grid-sizer" ></div>
+						<div class="grid-item" > 
+							<img src="img/karasuno/karasuno1.jpg" class="w-100 rounded shadow  hide"  alt="">
+						</div>
+						<div class="grid-item" >
+						  	<img src="img/karasuno/karasuno2.jpg" class="w-100 rounded shadow  hide"  alt="">
+						</div>
+						<div class="grid-item" >
+							<img src="img/karasuno/karasuno3.jpg" class="w-100 rounded shadow hide "  alt="">
+					</div>
+					
+						<div class="grid-item " >
+						  	<img src="img/karasuno/karasuno4.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/karasuno/karasuno5.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/karasuno/karasuno6.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item" >
+							<img src="img/karasuno/karasuno7.jpg" class="w-100 rounded shadow  hide"  alt="">
+					</div>
+							<div class="grid-item " >
+						  	<img src="img/karasuno/karasuno8.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 ">
+					<div class="d-flex justify-content-start">
+						<button class="btn btn-outline-success mr-4"  >AOBAJOHSAI</button>
+						<button class="btn btn-info"  id="aoba-show" >Hide</button>
+					</div>
+					<div class="grid" id="aoba-image">
+					  	<div class="grid-sizer" ></div>
+						<div class="grid-item " > 
+							<img src="img/aoba/aoba1.jpg" class="w-100 rounded shadow  hide"  alt="">
+						</div>
+						<div class="grid-item  " >
+						  	<img src="img/aoba/aoba2.jpg" class="w-100 rounded shadow  hide"  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/aoba/aoba3.jpg" class="w-100 rounded shadow  hide"  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/aoba/aoba4.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/aoba/aoba5.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/aoba/aoba6.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/aoba/aoba7.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+						<div class="grid-item " >
+						  	<img src="img/aoba/aoba8.jpg" class="w-100 rounded shadow hide "  alt="">
+						</div>
+					</div>
+				</div>
+				<div class="col-12 mt-4" >
+						<div class="d-flex justify-content-center">
+						<button class="btn btn-outline-success mr-4"  >Cool Things</button>
+					</div>
+					<div class="polygon " >
+						<div class="m-auto w-75 d-flex justify-content-center"  >
+							<div class="hexagon mr-3 hinata" >
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+							<div class="hexagon mr-3 kageyama">
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+						</div>
+						<div class="m-auto w-75 d-flex justify-content-center bottom-hexa"   >
+							<div class="hexagon mr-3 hk" >
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+							<div class="hexagon mr-3 h1" >
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+							<div class="hexagon mr-3 h2" >
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+						</div>
+						<div class="m-auto w-75 d-flex justify-content-center bottom-hexa2"  >
+							<div class="hexagon mr-3 h3" >
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+							<div class="hexagon mr-3 h4">
+							  <div class="hexTop"></div>
+							  <div class="hexBottom"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="container mt-3 team">
+		<div class="card bagian-collapse">
+			<div class="card-header">
+				Team
+			</div>
+			<div class="card-body">
+				<div class="accordion" id="accordionExample">
+					<div class="card">
+						<div class="card-header" id="headingOne">
+							<h5 class="mb-0">
+								<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Karasuno Team
+								</button>
+							</h5>
+							<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+								<div class="card-body">
+									<div class="row ">
+										<div class="col-md-5 ">
+											<img src="img/karasuno-min.jpg" class="d-block w-100 rounded shadow mb-3" alt="">
+										</div>
+										<div class="col-md-7">
+											<h3>Karasuno</h3>
+											<p class="lead">
+												Alright, I already know I've upset quite a lot of people from this choice. While Karasuno is the main team and is expected
+												to be everyone's number one team, they aren't for me. I highly admire this team and each one of its members.
+												The only problem that I do have, is the lack of development from certain characters. Ennoshita did have his time
+												to shine and showed how perfectly he could be a future captain. Narita didn't even have ten minutes to take a
+												stand for his character. Kinoshita hasn't even been on the court at all. The underrated second years is what
+												keeps Karasuno a bit lower on my list.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false"
+									 aria-controls="collapseTwo">
+										Nekoma Team
+									</button>
+								</h5>
+							</div>
+							<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+								<div class="card-body">
+									<div class="row ">
+										<div class="col-md-5 ">
+											<img src="img/nekoma-min.jpg" class="d-block w-100 rounded shadow mb-3" alt="">
+										</div>
+										<div class="col-md-7">
+											<h3>Nekoma</h3>
+											<p class="lead">
+												What can I say about this team without rambling too much? Not only are they one of the top teams, they also have a very well-rounded
+												team. Not shown much in the anime, each team member gets their time to shine in the manga. Individual character
+												development does take place in the manga revolving around Lev and Shibayama. Kenma is even shown opening up to
+												Hinata when they first meet. The way that Kuroo connects his team together with that (cheesy) pre-game phrase
+												really shows you what this team is made of.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree">
+								<h5 class="mb-0">
+									<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false"
+									 aria-controls="collapseThree">
+										Fukurodani Team
+									</button>
+								</h5>
+							</div>
+							<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+								<div class="card-body row">
+									<div class="col-md-5 ">
+										<img src="img/fukurodani-min.jpg" class="d-block w-100 rounded shadow mb-3" alt="">
+									</div>
+									<div class="col-md-7">
+										<h3>Fukurodani</h3>
+										<p class="lead">
+											Hey hey hey! It's the owls at number four! Along with Shiratorizawa, not much is seen from this team in the anime. Their
+											true potential just skims the surface of what they can really achieve in the anime. One thing that did throw me
+											off with this team is it only focuses on Bokuto and Akaashi. Konoha does get time to shine in the manga, but only
+											for one chapter. The way the team functions is mostly around Bokuto having his random mood swings. Of course,
+											the team is always there to cheer the poor guy up
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div class="jumbotron jumbotron-fluid mt-3 jumbotron-2 bagian-card">
+		<h1 class="display-4 text-light">KARASUNO SQUAD</h1>	
+		<div class="row">
+			<div class="col-md-3 column-badge">
+				<div class="card">
+					<img class="card-img-top" src="img/hinata-min.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Hinata Shouyou</h5>
+						<p class="card-text">
+							If you're the king that rules the court, I'll have to defeat you, and I'll be the last one standing!</p>
+						<a href="#" class="btn btn-success">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 column-badge">
+				<div class="card">
+					<img class="card-img-top" src="img/kageyama-min.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Tobio Kageyama</h5>
+						<p class="card-text">
+							The last ones standing are the victors, only the strongest. If you want to be the last one standing, become strong..</p>
+						<a href="#" class="btn btn-success">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 column-badge">
+				<div class="card">
+					<img class="card-img-top" src="img/tsukishima-min.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Kei Tsukishima</h5>
+						<p class="card-text">
+							Hi. I'm the normal guy. Time difference attacks may have fooled our wild beast (Hinata) over there, but it doesn't work for
+							me. Nice to meet you..</p>
+						<a href="#" class="btn btn-success">Read More</a>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-3 column-badge">
+				<div class="card">
+					<img class="card-img-top" src="img/nishinoya-min.jpg" alt="Card image cap">
+					<div class="card-body">
+						<h5 class="card-title">Yū Nishinoya</h5>
+						<p class="card-text">
+							My hand's thickness is about 2 cm. Perhaps my hands are a lot smaller than those of other boys my age... But that 2 cm gap
+							between the ball and the floor is the ace's lifeline!</p>
+						<a href="#" class="btn btn-success">Read More</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="container mt-3 member">
+		<div class="card bagian-table">
+			<div class="card-header label-team">
+				Karasuno Team
+			</div>
+			<div class="card-body">
+					<ol class="pagination">
+					<li class="page-item"><a class="page-link" href="#" id="data-karasuno">1</a></li>
+					<li class="page-item"><a class="page-link" href="#" id="data-aoba">2</a></li>
+					<li class="page-item"><a class="page-link" href="#" id="data-fukurodani">3</a></li>
+				</ol>
+				<table  class="table table-hover">
+					<thead>		
+						<tr>
+							<td>Name</td>
+							<td >Number</td>
+							<td >Position</td>
+							<td >Year</td>
+						</tr>
+					</thead>
+					<tbody id="tbody">
+						
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+		
+	<div class="container mt-3 contact-us">
+		<div class="card bagian-forms">
+			<div class="card-header">
+				Contact Me
+			</div>
+			<div class="card-body">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputEmail4">Email</label>
+							<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="inputPassword4">Password</label>
+							<input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputAddress">Address</label>
+						<input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+					</div>
+					<div class="form-group">
+						<label for="inputAddress2">Address 2</label>
+						<input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+					</div>
+					<div class="form-row">
+						<div class="form-group col-md-6">
+							<label for="inputCity">City</label>
+							<input type="text" class="form-control" id="inputCity">
+						</div>
+						<div class="form-group col-md-4">
+							<label for="inputState">State</label>
+							<select id="inputState" class="form-control">
+								<option selected>Choose...</option>
+								<option>...</option>
+							</select>
+						</div>
+						<div class="form-group col-md-2">
+							<label for="inputZip">Zip</label>
+							<input type="text" class="form-control" id="inputZip">
+						</div>
+					</div>
+					<div class="form-group">
+						<div class="form-check">
+							<input class="form-check-input" type="checkbox" id="gridCheck">
+							<label class="form-check-label" for="gridCheck">
+								Check me out
+							</label>
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Sign in</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="jumbotron jumbotron-fluid mt-3 jumbotron-2 bagian-card mb-0 footer"   >
+		<div class="row">
+			<div class="col-sm-3">
+				<div class="display-4 text-light">Haikyuu</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-4">
+						<h5 class="text-light" >Get Started</h5>
+						<hr class="bg-light">
+						<ul class="nav flex-column">
+							<li class="nav-item py-0"><a href="#" class="nav-link text-light py-0"">Home</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light  py-0">Sign Up</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light  py-0">Downloads</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<h5 class="text-light" >About US</h5>
+						<hr class="bg-light">
+						<ul class="nav flex-column">
+							<li class="nav-item py-0"><a href="#" class="nav-link text-light py-0"">My Information</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light  py-0">Contact US</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light  py-0">Reviews</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-4">
+						<h5 class="text-light" >Support</h5>
+						<hr class="bg-light">
+						<ul class="nav flex-column">
+							<li class="nav-item py-0"><a href="#" class="nav-link text-light py-0"">FAQ</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light  py-0">Help Desk</a></li>
+							<li class="nav-item"><a href="#" class="nav-link text-light  py-0">Forums</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-3">
+				<div class="icon d-flex flex-column align-items-center" >
+					<ul class="nav ">
+						<li class="nav-item py-0"><a href="#" class="nav-link fab fa-twitter fa-2x text-light py-0"></a></li>
+						<li class="nav-item"><a href="#" class="nav-link fab fa-facebook fa-2x  text-light  py-0"></a></li>
+						<li class="nav-item"><a href="#" class="nav-link fab fa-github fa-2x text-light  py-0"></a></li>
+					</ul>
+					<div class="d-flex justify-content-center">
+						<button class="btn btn-light mt-4">Contact US</button>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+
+
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+	<script src="js/mansory.js" ></script>
+	<script src="js/imageloaded.js" ></script>
+	<script src="table.js" ></script>
+	<script src="main.js"></script>
+
+</body>
+
+</html>
